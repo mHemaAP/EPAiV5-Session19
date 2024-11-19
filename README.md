@@ -1,6 +1,6 @@
 # EPAiV5-Session19 - Smart Device Management System
 
-![Test Status](https://github.com/mHemaAP/EPAiV5-Session19/actions/workflows/python-app.yml/badge.svg)
+![Test Status](https://github.com/mHemaAP/EPAiV5-Session19/actions/workflows/python-app-1.yml/badge.svg)
 
 ## Overview
 The Smart Device Management System is a Python-based framework designed for managing IoT devices efficiently. It provides a flexible, extensible, and type-safe approach to track device statuses, manage online/offline states, and customize device information. This system is ideal for both smart home applications and industrial IoT environments.
@@ -48,8 +48,7 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-1. Basic Example
-
+#### 1. Basic Example
 
 ```
 from smart_device import SmartDevice
@@ -73,8 +72,7 @@ print(device.device_info())  # Output: Device Name: Camera, Model: C-3000, Onlin
 
 ```
 
-2. Custom Device Information
-
+#### 2. Custom Device Information
 
 ```
 # Define custom device info function
